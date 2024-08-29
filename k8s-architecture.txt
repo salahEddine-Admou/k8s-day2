@@ -9,3 +9,8 @@ Worker Nodes(Data Plane): These are like the city's workforce, each equipped wit
 Kubelet: The gatekeeper, ensuring containers are up and running in pods.
 Kube Proxy: The traffic cop, managing network communication among pods.
 Container Runtime: The construction worker, executing container commands.
+
+
+tutorial
+
+https://www.geeksforgeeks.org/deploying-a-node-js-application-in-kubernetes/
