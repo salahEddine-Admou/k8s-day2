@@ -1,0 +1,16 @@
+Master Node(Control Plane): This is the city's brain center, comprising several essential components:
+
+API Server: The command center where you issue orders to Kubernetes.
+etcd: Kubernetes memory, a reliable database storing the entire configuration of your cluster.
+Controller Manager: The orchestrator, ensuring the desired state of your application is maintained.
+Scheduler: The matchmaker, assigning tasks to worker nodes.
+Worker Nodes(Data Plane): These are like the city's workforce, each equipped with:
+
+Kubelet: The gatekeeper, ensuring containers are up and running in pods.
+Kube Proxy: The traffic cop, managing network communication among pods.
+Container Runtime: The construction worker, executing container commands.
+
+
+tutorial
+
+https://www.geeksforgeeks.org/deploying-a-node-js-application-in-kubernetes/
